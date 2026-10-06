@@ -21,9 +21,14 @@ public class Romain {
 		return "Le romain " + nom + " : ";
 	}
 
-	public void recevoirCoup(int i) {
-		// TODO Auto-generated method stub
-		
+	public void recevoirCoup(int forceCoup) {
+		force = force - forceCoup;
+		if (force < 1) {
+			parler("J\'abandonne");
+		}
+		else {
+			parler("Aie ");
+		}
 	}
 
 }
