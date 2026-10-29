@@ -69,7 +69,7 @@ public class Romain {
 	private void ajouterEquipement(Equipement equipement) {
 		equipements[nbEquipement]= equipement;
 		nbEquipement++;
-		System.out.println("Le soldat " + nom+ "s'équipe avec un "+ equipement.toString()+" !");
+		System.out.println("Le soldat " + nom+ " s'équipe avec un "+ equipement.toString()+" !");
 	}
 	
 	public static void main(String[] args) {
